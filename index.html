@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="CoreCraft - профессиональная разработка плагинов для Minecraft серверов. Каталог плагинов с обзорами, поддержкой и регулярными обновлениями.">
+    <meta name="keywords" content="Minecraft плагины, CoreCraft, плагины для серверов, разработка плагинов, Minecraft Java">
+    <meta name="author" content="CoreCraft">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://corecraft.studio/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://corecraft.studio/">
+    <meta property="og:title" content="CoreCraft - Плагины для Minecraft серверов">
+    <meta property="og:description" content="Профессиональная разработка плагинов для Minecraft серверов с полной поддержкой и регулярными обновлениями.">
+    <meta property="og:image" content="https://corecraft.studio/Images/banner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="CoreCraft">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://corecraft.studio/">
+    <meta name="twitter:title" content="CoreCraft - Плагины для Minecraft серверов">
+    <meta name="twitter:description" content="Профессиональная разработка плагинов для Minecraft серверов с полной поддержкой и регулярными обновлениями.">
+    <meta name="twitter:image" content="https://corecraft.studio/Images/banner.jpg">
+    
+    <title>CoreCraft - Плагины для Minecraft серверов</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#0a0e1a">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка в стиле YouTube -->
+    <header id="header" class="youtube-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <svg class="logo-icon-minecraft" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4 4h16v16H4V4zm2 2v12h12V6H6zm2 2h8v8H8V8z"/>
+                    </svg>
+                    <span class="logo-text">CoreCraft</span>
+                </a>
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#hero" class="nav-link">Начало</a>
+                    <a href="#plugins" class="nav-link">Плагины</a>
+                    <a href="#channels" class="nav-link">Канал</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                    <a href="about.html" class="nav-link">О нас</a>
+                    <a href="terms.html" class="nav-link">Правила</a>
+                </nav>
+                <div class="social-icons-header">
+                    <a href="https://t.me/+BzFZQ-ozd9xhMjEy" target="_blank" class="social-icon" id="headerTelegram" title="Telegram">
+                        <img src="Images/icons8-телеграм-48.png" alt="Telegram" class="icon-image">
+                    </a>
+                    <a href="https://discord.gg/pSmy3yfJ53" target="_blank" class="social-icon" id="headerDiscord" title="Discord">
+                        <img src="Images/icons8-discord-48.png" alt="Discord" class="icon-image">
+                    </a>
+                    <a href="https://youtube.com/@legavelemirovich" target="_blank" class="social-icon" id="headerYouTube" title="YouTube">
+                        <img src="Images/icons8-youtube-play-48.png" alt="YouTube" class="icon-image">
+                    </a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section id="hero" class="hero minecraft-hero">
+        <div class="hero-background minecraft-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text-corecraft">CoreCraft</span>
+                    <br>Плагины для вашего сервера
+                </h1>
+                <p class="hero-subtitle">Плагины для Minecraft серверов. Разработка и поддержка от команды CoreCraft.</p>
+                <div class="hero-buttons">
+                    <a href="#plugins" class="btn-hero-primary">Смотреть плагины</a>
+                    <a href="#channels" class="btn-hero-secondary">Наш канал</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" id="pluginsCount">0</div>
+                        <div class="stat-label">Плагинов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="categoriesCount">0</div>
+                        <div class="stat-label">Категорий</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Плагины -->
+    <section id="plugins" class="plugins">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши плагины</h2>
+                <p class="section-subtitle">Каталог плагинов с обзорами и информацией. Для покупки и вопросов обращайтесь в Telegram или Discord.</p>
+            </div>
+            <div class="plugin-grid youtube-style-grid" id="pluginGrid">
+                <!-- Плагины загружаются через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно плагина -->
+    <div class="modal" id="pluginModal">
+        <div class="modal-content youtube-modal">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Контент загружается через JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- YouTube канал -->
+    <section id="channels" class="channels youtube-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">YouTube канал</h2>
+                <p class="section-subtitle">Подписывайтесь, чтобы быть в курсе новых плагинов и обновлений</p>
+            </div>
+            <div class="youtube-channel-container" id="channelContainer">
+                <!-- Канал загружается через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="contacts-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Связаться с нами</h2>
+                <p class="section-subtitle">Свяжитесь с нами в Telegram или Discord для покупки плагинов и получения поддержки</p>
+            </div>
+            <div class="contacts-grid social-grid" id="contactsGrid">
+                <!-- Контакты загружаются через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg class="logo-icon-minecraft" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4 4h16v16H4V4zm2 2v12h12V6H6zm2 2h8v8H8V8z"/>
+                        </svg>
+                        <span class="logo-text">CoreCraft</span>
+                    </div>
+                    <p>Профессиональная разработка плагинов для Minecraft серверов с полной поддержкой и регулярными обновлениями.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="#plugins">Плагины</a></li>
+                        <li><a href="#channels">YouTube канал</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="terms.html">Правила и условия</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><a href="https://t.me/+BzFZQ-ozd9xhMjEy" target="_blank" id="telegramLink">Telegram канал</a></li>
+                        <li><a href="https://discord.gg/pSmy3yfJ53" target="_blank" id="discordLink">Discord сервер</a></li>
+                        <li><a href="https://youtube.com/@legavelemirovich" target="_blank" id="youtubeLink">YouTube канал</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CoreCraft. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="plugins.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
